@@ -1,0 +1,26 @@
+# Temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Editor files
+.vscode/
+.idea/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local Kubernetes configuration
+kubeconfig
+kubeconfig.*
+*.kubeconfig
+
+# OS-generated files
+.DS_Store
+Thumbs.db
